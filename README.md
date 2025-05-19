@@ -1,4 +1,5 @@
 # Website for Job-seeker
+_*(Dự án vì cộng đồng - Cho đi là còn mãi)*_
 ## Đối tượng sử dụng
 ### Quản trị viên:
 * Quản lý trang thông tin: Banner, giới thiệu
@@ -19,11 +20,19 @@
 * Báo cáo vi phạm: Công ty, cá nhân
 (lừa đảo, spam, không liên hệ được, thông tin sai)
 
-## Tables
+## Phân tích chức năng
+### Đăng bài tuyển dụng
 
-| Left columns  | Right columns |
+| Các tác nhân  | Nhà tuyển dụng |
 | ------------- |:-------------:|
-| left foo      | right foo     |
-| left bar      | right bar     |
-| left baz      | right baz     |
+| Mô tả     | Đăng bài tuyển dụng     |
+| Kích hoạt     | Người dùng ấn nút “đăng bài tuyển dụng” trên thanh menu   |
+| Đầu vào      | Tên công ty<br> Tên công việc<br> Địa điểm: Thành phố - quận (select2 - load về local)<br> Có remote không (radio)<br> Có partime không (radio)<br> Mức lương (slide bar)<br> Ngôn ngữ (multiple select2)<br> Yêu cầu thêm (text)  |
+| Trình tự xử lý     | |
+| Đầu ra      | Đúng:<br>Chuyển hướng tới giao diện quản lý và thông báo thành công<br>Sai:<br>Chuyển hướng về trang đăng nhập và thông báo lỗi     |
+| Lưu ý     | *Regex: Điều kiện validate cho các thông tin đầu vào     |
 
+## Bản quyền
+_*dv89260*_
+
+_*It's a free website anw!*_
