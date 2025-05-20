@@ -25,8 +25,8 @@ _*(Dự án vì cộng đồng - Cho đi là còn mãi)*_
 
 | Factor  | Recruiter |
 | ------------- |:-------------:|
-| Descript.     | Đăng bài tuyển dụng     |
-| Activate     | Người dùng ấn nút “đăng bài tuyển dụng” trên thanh menu   |
+| Descript.     | post recruitment article     |
+| Activate     | User hit/click button named “Post recruitment” on menu board   |
 | Input      | Company name<br> Job name<br> Address: Cty - District (select2 - loading from local)<br> Is remote (radio)<br> Is partime (radio)<br> Salary (slide bar)<br> Language (multiple select2)<br> Further information (text)  |
 | Process flow     | |
 | Output      | Oui:<br>Redirect to management interface and alert successfull process<br>Non:<br>Redirect to login interface and alert error   |
