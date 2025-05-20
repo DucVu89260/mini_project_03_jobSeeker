@@ -1,5 +1,8 @@
 # Website for Job-seeker
 _*(Dự án vì cộng đồng - Cho đi là còn mãi)*_
+
+#### ERM: https://drive.google.com/file/d/1vALJpP2X_oSY_WVrPI5oUdoctAiYA16V/view?usp=sharing
+#### Database: https://docs.google.com/spreadsheets/d/1528j6HGfNB9T0CDV6Qq8I7WNC_tAe3iLBKPfgDShDn4/edit?usp=sharing#G1vALJpP2X_oSY_WVrPI5oUdoctAiYA16V#%7B%22pageId%22%3A%221IeiEe8-hJY0db8ghvol%22%7D
 ## OBJECTS
 ### Admin:
 * General information management: Banner, sale, ...
@@ -35,4 +38,4 @@ _*(Dự án vì cộng đồng - Cho đi là còn mãi)*_
 ## Copyright
 _*dv89260*_
 
-_*It's a free website anw!*_
+_*It's a free anw!*_
