@@ -1,38 +1,38 @@
 # Website for Job-seeker
 _*(Dự án vì cộng đồng - Cho đi là còn mãi)*_
-## Đối tượng sử dụng
-### Quản trị viên:
-* Quản lý trang thông tin: Banner, giới thiệu
-* Quản lý người dùng
-* Quản lý file: JD, CV
+## OBJECTS
+### Admin:
+* General information management: Banner, sale, ...
+* Users management
+* Storing and managing files: JD, CV
 
-### Nhà tuyển dụng:
-* Đăng bài tuyển dụng
-(tên công ty, địa điểm, remote?, partime?, mức lương, ngôn ngữ, yêu cầu, file JD)
-* Tìm kiếm CV
-* Chỉnh sửa thông tin các nhân (Công ty liên hệ, thông tin liên hệ)
+### Recruiter:
+* Post recruiting news
+(Company, address, remote?, partime?, salary, language, other demand, file JD)
+* Searching for CV
+* Update personal information (related company, contacting information)
 
-### Ứng viên:
-* Tìm kiếm công việc (công ty)
-(mức lương, địa điểm, ngôn ngữ, trình độ, yêu cầu bằng cấp - chứng chỉ, số lượng)
-* Đăng CV
-* Xem danh sách công việc (sắp xếp ngẫu nhiên)
-* Báo cáo vi phạm: Công ty, cá nhân
-(lừa đảo, spam, không liên hệ được, thông tin sai)
+### Candidate:
+* Searching for job, related company
+(salary, address, language, certificate, level,number)
+* Post CV
+* Managing job list (in random order)
+* Violation reports: company, personale
+(cheat, spam, uncontactable, incorrect information)
 
-## Phân tích chức năng
-### Đăng bài tuyển dụng
+## Functions analysis
+### Post recruiting news
 
-| Các tác nhân  | Nhà tuyển dụng |
+| Factor  | Recruiter |
 | ------------- |:-------------:|
-| Mô tả     | Đăng bài tuyển dụng     |
-| Kích hoạt     | Người dùng ấn nút “đăng bài tuyển dụng” trên thanh menu   |
-| Đầu vào      | Tên công ty<br> Tên công việc<br> Địa điểm: Thành phố - quận (select2 - load về local)<br> Có remote không (radio)<br> Có partime không (radio)<br> Mức lương (slide bar)<br> Ngôn ngữ (multiple select2)<br> Yêu cầu thêm (text)  |
-| Trình tự xử lý     | |
-| Đầu ra      | Đúng:<br>Chuyển hướng tới giao diện quản lý và thông báo thành công<br>Sai:<br>Chuyển hướng về trang đăng nhập và thông báo lỗi     |
-| Lưu ý     | *Regex: Điều kiện validate cho các thông tin đầu vào     |
+| Descript.     | Đăng bài tuyển dụng     |
+| Activate     | Người dùng ấn nút “đăng bài tuyển dụng” trên thanh menu   |
+| Input      | Company name<br> Job name<br> Address: Cty - District (select2 - loading from local)<br> Is remote (radio)<br> Is partime (radio)<br> Salary (slide bar)<br> Language (multiple select2)<br> Further information (text)  |
+| Process flow     | |
+| Output      | Oui:<br>Redirect to management interface and alert successfull process<br>Non:<br>Redirect to login interface and alert error   |
+| Note:     | *Regex: Validation rules for all input     |
 
-## Bản quyền
+## Copyright
 _*dv89260*_
 
 _*It's a free website anw!*_
